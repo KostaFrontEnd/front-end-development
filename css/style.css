@@ -235,3 +235,37 @@ table, td, th {
     padding: 15px;
   }
 
+/*Selektori*/
+.google:link {
+    color: green;
+}
+
+.google:visited {
+    color: green;
+}
+
+.linkgroup:link {
+    color: red;
+}
+
+.linkgroup:visited {
+    color: red;
+}
+
+.crvena {
+    color: red;
+}
+
+.plava {
+    color: blue;
+}
+
+.new::after {
+    content: ' NEW';
+    font-style: italic;
+    color: yellow;
+}
+
+.change:hover {
+    font-style: italic;
+}
