@@ -236,36 +236,27 @@ table, td, th {
   }
 
 /*Selektori*/
-.google:link {
-    color: green;
+a[href^="https://www.google.com/"] {
+    color: green
 }
 
-.google:visited {
-    color: green;
-}
-
-.linkgroup:link {
+a[href^="https://www.link-group.eu/"] {
     color: red;
 }
 
-.linkgroup:visited {
-    color: red;
+#second-div p:nth-child(even) {
+    color: red
 }
 
-.crvena {
-    color: red;
-}
-
-.plava {
+#second-div p:nth-child(odd) {
     color: blue;
 }
 
-.new::after {
+#first-div > p::after {
     content: ' NEW';
-    font-style: italic;
     color: yellow;
 }
 
-.change:hover {
+body>p:last-child:hover {
     font-style: italic;
 }
